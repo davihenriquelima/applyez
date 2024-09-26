@@ -1,0 +1,1986 @@
+[
+  {   
+    "code": "BR",
+    "name": "Brazil",
+    "areaCode": "55",
+    "phoneRegex": "(\\d{2})(\\d{4,5})(\\d{4})",
+    "phoneFormat": "($1) $2-$3",
+    "states": [
+        { 
+          "code":"AC",
+          "name": "Acre",
+          "cities": [
+              {"name":"Rio Branco"},
+              {"name":"Cruzeiro do Sul"},
+              {"name":"Sena Madureira"},
+              {"name":"Tarauacá"},
+              {"name":"Feijó"},
+              {"name":"Brasiléia"},
+              {"name":"Senador Guiomard"},
+              {"name":"Plácido de Castro"}
+          ]
+        },
+        {
+          "code":"AL",
+          "name": "Alagoas",
+          "cities": [
+              {"name":"Maceió"},
+              {"name":"Arapiraca"},
+              {"name":"Palmeira dos Índios"},
+              {"name":"Rio Largo"},
+              {"name":"Penedo"},
+              {"name":"União dos Palmares"},
+              {"name":"Delmiro Gouveia"},
+              {"name":"Santana do Ipanema"}
+          ]
+        },
+        {
+          "code":"AP",
+          "name": "Amapá",
+          "cities": [
+              {"name":"Macapá"},
+              {"name":"Santana"},
+              {"name":"Laranjal do Jari"},
+              {"name":"Oiapoque"},
+              {"name":"Mazagão"},
+              {"name":"Porto Grande"},
+              {"name":"Tartarugalzinho"}
+          ]
+        },
+        {
+          "code":"AM",
+          "name": "Amazonas",
+          "cities": [
+              {"name":"Manaus"},
+              {"name":"Parintins"},
+              {"name":"Itacoatiara"},
+              {"name":"Manacapuru"},
+              {"name":"Coari"},
+              {"name":"Tabatinga"},
+              {"name":"Tefé"},
+              {"name":"Maués"}
+          ]
+        },
+        {
+          "code":"BA",
+          "name": "Bahia",
+          "cities": [
+              {"name":"Salvador"},
+              {"name":"Feira de Santana"},
+              {"name":"Vitória da Conquista"},
+              {"name":"Camaçari"},
+              {"name":"Juazeiro"},
+              {"name":"Ilhéus"},
+              {"name":"Itabuna"},
+              {"name":"Barreiras"}
+          ]
+        },
+        {
+          "code":"CE",
+          "name": "Ceará",
+          "cities": [
+              {"name":"Fortaleza"},
+              {"name":"Caucaia"},
+              {"name":"Juazeiro do Norte"},
+              {"name":"Maracanaú"},
+              {"name":"Sobral"},
+              {"name":"Crato"},
+              {"name":"Iguatu"},
+              {"name":"Quixadá"}
+          ]
+        },
+        {
+          "code":"DF",
+          "name": "Distrito Federal",
+          "cities": [
+              {"name":"Brasília"},
+              {"name":"Taguatinga"},
+              {"name":"Ceilândia"},
+              {"name":"Samambaia"},
+              {"name":"Planaltina"},
+              {"name":"Sobradinho"},
+              {"name":"Recanto das Emas"}
+          ]
+        },
+        {
+          "code":"ES",
+          "name": "Espírito Santo",
+          "cities": [
+              {"name":"Vitória"},
+              {"name":"Vila Velha"},
+              {"name":"Serra"},
+              {"name":"Cariacica"},
+              {"name":"Linhares"},
+              {"name":"Cachoeiro de Itapemirim"},
+              {"name":"Colatina"},
+              {"name":"Guarapari"}
+          ]
+        },
+        {
+          "code":"GO",
+          "name": "Goiás",
+          "cities": [
+              {"name":"Goiânia"},
+              {"name":"Aparecida de Goiânia"},
+              {"name":"Anápolis"},
+              {"name":"Rio Verde"},
+              {"name":"Luziânia"},
+              {"name":"Águas Lindas de Goiás"},
+              {"name":"Valparaíso de Goiás"},
+              {"name":"Trindade"}
+          ]
+        },
+        {
+          "code":"MA",
+          "name": "Maranhão",
+          "cities": [
+              {"name":"São Luís"},
+              {"name":"Imperatriz"},
+              {"name":"Timon"},
+              {"name":"Caxias"},
+              {"name":"São José de Ribamar"},
+              {"name":"Codó"},
+              {"name":"Açailândia"},
+              {"name":"Bacabal"}
+          ]
+        },
+        {
+          "code":"MT",
+          "name": "Mato Grosso",
+          "cities": [
+              {"name":"Cuiabá"},
+              {"name":"Várzea Grande"},
+              {"name":"Rondonópolis"},
+              {"name":"Sinop"},
+              {"name":"Tangará da Serra"},
+              {"name":"Lucas do Rio Verde"},
+              {"name":"Barra do Garças"},
+              {"name":"Cáceres"}
+          ]
+        },
+        {
+            "code":"MS",
+            "name": "Mato Grosso do Sul",
+            "cities": [
+                {"name":"Campo Grande"},
+                {"name":"Dourados"},
+                {"name":"Três Lagoas"},
+                {"name":"Corumbá"},
+                {"name":"Ponta Porã"},
+                {"name":"Naviraí"},
+                {"name":"Nova Andradina"},
+                {"name":"Paranaíba"}
+            ]
+        },
+        {
+            "code":"MG",
+            "name": "Minas Gerais",
+            "cities": [
+                {"name":"Belo Horizonte"},
+                {"name":"Uberlândia"},
+                {"name":"Contagem"},
+                {"name":"Juiz de Fora"},
+                {"name":"Betim"},
+                {"name":"Montes Claros"},
+                {"name":"Ribeirão das Neves"},
+                {"name":"Uberaba"}
+            ]
+        },
+        {
+            "code":"PA",
+            "name": "Pará",
+            "cities": [
+                {"name":"Belém"},
+                {"name":"Ananindeua"},
+                {"name":"Santarém"},
+                {"name":"Marabá"},
+                {"name":"Castanhal"},
+                {"name":"Parauapebas"},
+                {"name":"Abaetetuba"},
+                {"name":"Cametá"}
+            ]
+        },
+        {
+            "code":"PB",
+            "name": "Paraíba",
+            "cities": [
+                {"name":"João Pessoa"},
+                {"name":"Campina Grande"},
+                {"name":"Santa Rita"},
+                {"name":"Patos"},
+                {"name":"Bayeux"},
+                {"name":"Sousa"},
+                {"name":"Cajazeiras"},
+                {"name":"Guarabira"}
+            ]
+        },
+        {
+            "code":"PR",
+            "name": "Paraná",
+            "cities": [
+                {"name":"Curitiba"},
+                {"name":"Londrina"},
+                {"name":"Maringá"},
+                {"name":"Ponta Grossa"},
+                {"name":"Cascavel"},
+                {"name":"São José dos Pinhais"},
+                {"name":"Foz do Iguaçu"},
+                {"name":"Colombo"}
+            ]
+        },
+        {
+            "code":"PE",
+            "name": "Pernambuco",
+            "cities": [
+                {"name":"Recife"},
+                {"name":"Jaboatão dos Guararapes"},
+                {"name":"Olinda"},
+                {"name":"Caruaru"},
+                {"name":"Petrolina"},
+                {"name":"Paulista"},
+                {"name":"Cabo de Santo Agostinho"},
+                {"name":"Garanhuns"}
+            ]
+        },
+        {
+            "code":"PI",
+            "name": "Piauí",
+            "cities": [
+                {"name":"Teresina"},
+                {"name":"Parnaíba"},
+                {"name":"Picos"},
+                {"name":"Floriano"},
+                {"name":"Piripiri"},
+                {"name":"Campo Maior"},
+                {"name":"Barras"},
+                {"name":"Altos"}
+            ]
+        },
+        {
+            "code":"RJ",
+            "name": "Rio de Janeiro",
+            "cities": [
+                {"name":"Rio de Janeiro"},
+                {"name":"São Gonçalo"},
+                {"name":"Duque de Caxias"},
+                {"name":"Nova Iguaçu"},
+                {"name":"Niterói"},
+                {"name":"Campos dos Goytacazes"},
+                {"name":"Belford Roxo"},
+                {"name":"São João de Meriti"}
+            ]
+        },
+        {
+            "code":"RN",
+            "name": "Rio Grande do Norte",
+            "cities": [
+                {"name":"Natal"},
+                {"name":"Mossoró"},
+                {"name":"Parnamirim"},
+                {"name":"São Gonçalo do Amarante"},
+                {"name":"Macaíba"},
+                {"name":"Caicó"},
+                {"name":"Açu"},
+                {"name":"Ceará-Mirim"}
+            ]
+        },
+        {
+            "code":"RS",
+            "name": "Rio Grande do Sul",
+            "cities": [
+                {"name":"Porto Alegre"},
+                {"name":"Caxias do Sul"},
+                {"name":"Pelotas"},
+                {"name":"Canoas"},
+                {"name":"Santa Maria"},
+                {"name":"Gravataí"},
+                {"name":"Viamão"},
+                {"name":"Novo Hamburgo"}
+            ]
+        },
+        {
+            "code":"RO",
+            "name": "Rondônia",
+            "cities": [
+                {"name":"Porto Velho"},
+                {"name":"Ji-Paraná"},
+                {"name":"Ariquemes"},
+                {"name":"Vilhena"},
+                {"name":"Cacoal"},
+                {"name":"Rolim de Moura"},
+                {"name":"Guajará-Mirim"},
+                {"name":"Jaru"}
+            ]
+        },
+        {
+            "code":"RR",
+            "name": "Roraima",
+            "cities": [
+                {"name":"Boa Vista"},
+                {"name":"Rorainópolis"},
+                {"name":"Caracaraí"},
+                {"name":"Mucajaí"},
+                {"name":"Pacaraima"},
+                {"name":"Cantá"},
+                {"name":"Normandia"},
+                {"name":"Uiramutã"}
+            ]
+        },
+        {
+            "code":"SC",
+            "name": "Santa Catarina",
+            "cities": [
+                {"name":"Florianópolis"},
+                {"name":"Joinville"},
+                {"name":"Blumenau"},
+                {"name":"São José"},
+                {"name":"Chapecó"},
+                {"name":"Itajaí"},
+                {"name":"Criciúma"},
+                {"name":"Lages"}
+            ]
+        },
+        {
+            "code":"SP",
+            "name": "São Paulo",
+            "cities": [
+                {"name":"São Paulo"},
+                {"name":"Guarulhos"},
+                {"name":"Campinas"},
+                {"name":"São Bernardo do Campo"},
+                {"name":"São José dos Campos"},
+                {"name":"Santo André"},
+                {"name":"Ribeirão Preto"},
+                {"name":"Osasco"}
+            ]
+        },
+        {
+            "code":"SE",
+            "name": "Sergipe",
+            "cities": [
+                {"name":"Aracaju"},
+                {"name":"Nossa Senhora do Socorro"},
+                {"name":"Lagarto"},
+                {"name":"Itabaiana"},
+                {"name":"Estância"},
+                {"name":"Tobias Barreto"},
+                {"name":"Simão Dias"},
+                {"name":"Itaporanga d'Ajuda"}
+            ]
+        },
+        {
+            "code":"TO",
+            "name": "Tocantins",
+            "cities": [
+                {"name":"Palmas"},
+                {"name":"Araguaína"},
+                {"name":"Gurupi"},
+                {"name":"Porto Nacional"},
+                {"name":"Paraíso do Tocantins"},
+                {"name":"Colinas do Tocantins"},
+                {"name":"Guaraí"},
+                {"name":"Tocantinópolis"}
+            ]
+        }
+    ]
+  },
+    
+  { "code": "DE",
+    "name": "Germany",
+    "areaCode": "49",
+    "phoneRegex": "(\\d{3,4})(\\d{6})",
+    "phoneFormat": "$1-$2",
+    "states": [
+      {
+        "code": "BW",
+        "name": "Baden-Württemberg",
+        "cities": [
+          {"name": "Stuttgart"},
+          {"name": "Mannheim"},
+          {"name": "Karlsruhe"},
+          {"name": "Heidelberg"},
+          {"name": "Freiburg im Breisgau"},
+          {"name": "Ulm"},
+          {"name": "Pforzheim"},
+          {"name": "Heilbronn"},
+          {"name": "Reutlingen"},
+          {"name": "Ludwigsburg"},
+          {"name": "Tübingen"},
+          {"name": "Esslingen am Neckar"},
+          {"name": "Konstanz"},
+          {"name": "Villingen-Schwenningen"},
+          {"name": "Aalen"},
+          {"name": "Sindelfingen"},
+          {"name": "Böblingen"}
+        ]
+      },
+      {
+        "code": "BY",
+        "name": "Bavaria (Bayern)",
+        "cities": [
+          {"name": "München"},
+          {"name": "Nürnberg"},
+          {"name": "Augsburg"},
+          {"name": "Regensburg"},
+          {"name": "Würzburg"},
+          {"name": "Ingolstadt"},
+          {"name": "Fürth"},
+          {"name": "Erlangen"},
+          {"name": "Bamberg"},
+          {"name": "Bayreuth"},
+          {"name": "Landshut"},
+          {"name": "Rosenheim"},
+          {"name": "Passau"},
+          {"name": "Kempten"},
+          {"name": "Aschaffenburg"},
+          {"name": "Schweinfurt"}
+        ]
+      },
+      {
+        "code": "BE",
+        "name": "Berlin",
+        "cities": [
+          {"name": "Berlin"}
+        ]
+      },
+      {
+        "code": "BB",
+        "name": "Brandenburg",
+        "cities": [
+          {"name": "Potsdam"},
+          {"name": "Cottbus"},
+          {"name": "Brandenburg an der Havel"},
+          {"name": "Frankfurt (Oder)"},
+          {"name": "Oranienburg"},
+          {"name": "Eberswalde"},
+          {"name": "Falkensee"},
+          {"name": "Bernau bei Berlin"},
+          {"name": "Fürstenwalde"},
+          {"name": "Rathenow"},
+          {"name": "Neuruppin"},
+          {"name": "Strausberg"}
+        ]
+      },
+      {
+        "code": "HB",
+        "name": "Bremen",
+        "cities": [
+          {"name": "Bremen"},
+          {"name": "Bremerhaven"}
+        ]
+      },
+      {
+        "code": "HH",
+        "name": "Hamburg",
+        "cities": [
+          {"name": "Hamburg"}
+        ]
+      },
+      {
+        "code": "HE",
+        "name": "Hesse (Hessen)",
+        "cities": [
+          {"name": "Frankfurt am Main"},
+          {"name": "Wiesbaden"},
+          {"name": "Darmstadt"},
+          {"name": "Kassel"},
+          {"name": "Offenbach am Main"},
+          {"name": "Hanau"},
+          {"name": "Marburg"},
+          {"name": "Gießen"},
+          {"name": "Fulda"},
+          {"name": "Rüsselsheim"},
+          {"name": "Bad Homburg vor der Höhe"},
+          {"name": "Wetzlar"}
+        ]
+      },
+      {
+        "code": "MV",
+        "name": "Mecklenburg-Vorpommern",
+        "cities": [
+          {"name": "Schwerin"},
+          {"name": "Rostock"},
+          {"name": "Stralsund"},
+          {"name": "Greifswald"},
+          {"name": "Wismar"},
+          {"name": "Neubrandenburg"},
+          {"name": "Güstrow"},
+          {"name": "Schwedt"},
+          {"name": "Anklam"},
+          {"name": "Ludwigslust"}
+        ]
+      },
+      {
+        "code": "NI",
+        "name": "Lower Saxony (Niedersachsen)",
+        "cities": [
+          {"name": "Hannover"},
+          {"name": "Braunschweig"},
+          {"name": "Oldenburg"},
+          {"name": "Osnabrück"},
+          {"name": "Göttingen"},
+          {"name": "Wolfsburg"},
+          {"name": "Hildesheim"},
+          {"name": "Salzgitter"},
+          {"name": "Celle"},
+          {"name": "Wilhelmshaven"},
+          {"name": "Lüneburg"},
+          {"name": "Emden"},
+          {"name": "Delmenhorst"}
+        ]
+      },
+      {
+        "code": "NW",
+        "name": "North Rhine-Westphalia (Nordrhein-Westfalen)",
+        "cities": [
+          {"name": "Düsseldorf"},
+          {"name": "Köln"},
+          {"name": "Dortmund"},
+          {"name": "Essen"},
+          {"name": "Duisburg"},
+          {"name": "Bochum"},
+          {"name": "Wuppertal"},
+          {"name": "Bonn"},
+          {"name": "Bielefeld"},
+          {"name": "Münster"},
+          {"name": "Gelsenkirchen"},
+          {"name": "Aachen"},
+          {"name": "Mönchengladbach"},
+          {"name": "Krefeld"},
+          {"name": "Oberhausen"},
+          {"name": "Leverkusen"},
+          {"name": "Solingen"},
+          {"name": "Herne"},
+          {"name": "Neuss"}
+        ]
+      },
+      {
+        "code": "RP",
+        "name": "Rhineland-Palatinate (Rheinland-Pfalz)",
+        "cities": [
+          {"name": "Mainz"},
+          {"name": "Koblenz"},
+          {"name": "Trier"},
+          {"name": "Ludwigshafen am Rhein"},
+          {"name": "Kaiserslautern"},
+          {"name": "Worms"},
+          {"name": "Speyer"},
+          {"name": "Neuwied"},
+          {"name": "Frankenthal"},
+          {"name": "Pirmasens"},
+          {"name": "Landau in der Pfalz"},
+          {"name": "Bad Kreuznach"}
+        ]
+      },
+      {
+        "code": "SL",
+        "name": "Saarland",
+        "cities": [
+          {"name": "Saarbrücken"},
+          {"name": "Neunkirchen"},
+          {"name": "Homburg"},
+          {"name": "Völklingen"},
+          {"name": "Sankt Ingbert"},
+          {"name": "Merzig"},
+          {"name": "Saarlouis"},
+          {"name": "Blieskastel"},
+          {"name": "Dillingen/Saar"}
+        ]
+      },
+      {
+        "code": "SN",
+        "name": "Saxony (Sachsen)",
+        "cities": [
+          {"name": "Dresden"},
+          {"name": "Leipzig"},
+          {"name": "Chemnitz"},
+          {"name": "Zwickau"},
+          {"name": "Görlitz"},
+          {"name": "Plauen"},
+          {"name": "Freiberg"},
+          {"name": "Bautzen"},
+          {"name": "Pirna"},
+          {"name": "Radebeul"},
+          {"name": "Riesa"},
+          {"name": "Hoyerswerda"},
+          {"name": "Meißen"}
+        ]
+      },
+      {
+        "code": "ST",
+        "name": "Saxony-Anhalt (Sachsen-Anhalt)",
+        "cities": [
+          {"name": "Magdeburg"},
+          {"name": "Halle (Saale)"},
+          {"name": "Dessau-Roßlau"},
+          {"name": "Wittenberg"},
+          {"name": "Halberstadt"},
+          {"name": "Quedlinburg"},
+          {"name": "Sangerhausen"},
+          {"name": "Stendal"},
+          {"name": "Weißenfels"},
+          {"name": "Bernburg"},
+          {"name": "Naumburg"}
+        ]
+      },
+      {
+        "code": "SH",
+        "name": "Schleswig-Holstein",
+        "cities": [
+          {"name": "Kiel"},
+          {"name": "Lübeck"},
+          {"name": "Flensburg"},
+          {"name": "Neumünster"},
+          {"name": "Itzehoe"},
+          {"name": "Elmshorn"},
+          {"name": "Wedel"},
+          {"name": "Pinneberg"},
+          {"name": "Norderstedt"},
+          {"name": "Husum"},
+          {"name": "Rendsburg"},
+          {"name": "Eutin"},
+          {"name": "Plön"}
+        ]
+      },
+      {
+        "code": "TH",
+        "name": "Thuringia (Thüringen)",
+        "cities": [
+          {"name": "Erfurt"},
+          {"name": "Jena"},
+          {"name": "Weimar"},
+          {"name": "Gera"},
+          {"name": "Eisenach"},
+          {"name": "Gotha"},
+          {"name": "Nordhausen"},
+          {"name": "Suhl"},
+          {"name": "Mühlhausen"},
+          {"name": "Ilmenau"},
+          {"name": "Altenburg"},
+          {"name": "Meiningen"}
+        ]
+      }
+    ]
+  },
+  
+  { 
+    "code":"JP",
+    "name": "Japan",
+    "areaCode":"81",
+    "phoneRegex": "(\\d{2})(\\d{4})(\\d{4})",
+    "phoneFormat": "($1) $2-$3",
+    "states": [
+      {
+        "code": "AIC",
+        "name": "Aichi",
+        "cities": [
+          {"name": "Nagoya"},
+          {"name": "Toyota"},
+          {"name": "Okazaki"},
+          {"name": "Ichinomiya"},
+          {"name": "Kasugai"},
+          {"name": "Toyohashi"},
+          {"name": "Seto"},
+          {"name": "Handa"}
+        ]
+      },
+      {
+        "code": "AKI",
+        "name": "Akita",
+        "cities": [
+          {"name": "Akita"},
+          {"name": "Yokote"},
+          {"name": "Oga"},
+          {"name": "Daisen"},
+          {"name": "Odate"},
+          {"name": "Yuzawa"},
+          {"name": "Kazuno"}
+        ]
+      },
+      {
+        "code": "AOM",
+        "name": "Aomori",
+        "cities": [
+          {"name": "Aomori"},
+          {"name": "Hirosaki"},
+          {"name": "Hachinohe"},
+          {"name": "Kuroishi"},
+          {"name": "Goshogawara"},
+          {"name": "Mutsu"},
+          {"name": "Misawa"}
+        ]
+      },
+      {
+        "code": "CHI",
+        "name": "Chiba",
+        "cities": [
+          {"name": "Chiba"},
+          {"name": "Funabashi"},
+          {"name": "Matsudo"},
+          {"name": "Ichikawa"},
+          {"name": "Kashiwa"},
+          {"name": "Narita"},
+          {"name": "Sakura"},
+          {"name": "Nagareyama"}
+        ]
+      },
+      {
+        "code": "EHI",
+        "name": "Ehime",
+        "cities": [
+          {"name": "Matsuyama"},
+          {"name": "Saijo"},
+          {"name": "Imabari"},
+          {"name": "Uwajima"},
+          {"name": "Niihama"},
+          {"name": "Tobe"},
+          {"name": "Shikokuchuo"}
+        ]
+      },
+      {
+        "code": "FUK",
+        "name": "Fukuoka",
+        "cities": [
+          {"name": "Fukuoka"},
+          {"name": "Kitakyushu"},
+          {"name": "Kurume"},
+          {"name": "Onojo"},
+          {"name": "Iizuka"},
+          {"name": "Futsukaichi"},
+          {"name": "Dazaifu"}
+        ]
+      },
+      {
+        "code": "FUK",
+        "name": "Fukui",
+        "cities": [
+          {"name": "Fukui"},
+          {"name": "Sakai"},
+          {"name": "Tsuruga"},
+          {"name": "Obama"},
+          {"name": "Katsuyama"},
+          {"name": "Awara"},
+          {"name": "Sabae"}
+        ]
+      },
+      {
+        "code": "FUK",
+        "name": "Fukushima",
+        "cities": [
+          {"name": "Fukushima"},
+          {"name": "Koriyama"},
+          {"name": "Iwaki"},
+          {"name": "Aizuwakamatsu"},
+          {"name": "Shirakawa"},
+          {"name": "Sukagawa"},
+          {"name": "Nihonmatsu"}
+        ]
+      },
+      {
+        "code": "GIF",
+        "name": "Gifu",
+        "cities": [
+          {"name": "Gifu"},
+          {"name": "Ogaki"},
+          {"name": "Kakamigahara"},
+          {"name": "Tajimi"},
+          {"name": "Seki"},
+          {"name": "Minokamo"},
+          {"name": "Nakatsugawa"},
+          {"name": "Takayama"}
+        ]
+      },
+      {
+        "code": "GUN",
+        "name": "Gunma",
+        "cities": [
+          {"name": "Maebashi"},
+          {"name": "Takasaki"},
+          {"name": "Ota"},
+          {"name": "Isesaki"},
+          {"name": "Kiryu"},
+          {"name": "Numata"},
+          {"name": "Shibukawa"}
+        ]
+      },
+      {
+        "code": "HIR",
+        "name": "Hiroshima",
+        "cities": [
+          {"name": "Hiroshima"},
+          {"name": "Kure"},
+          {"name": "Fuchu"},
+          {"name": "Fukuyama"},
+          {"name": "Onomichi"},
+          {"name": "Hatsukaichi"},
+          {"name": "Higashihiroshima"},
+          {"name": "Sera"}
+        ]
+      },
+      {
+        "code": "HOK",
+        "name": "Hokkaido",
+        "cities": [
+          {"name": "Sapporo"},
+          {"name": "Hakodate"},
+          {"name": "Asahikawa"},
+          {"name": "Otaru"},
+          {"name": "Obihiro"},
+          {"name": "Tomakomai"},
+          {"name": "Kushiro"},
+          {"name": "Kitami"}
+        ]
+      },
+      {
+        "code": "HYO",
+        "name": "Hyogo",
+        "cities": [
+          {"name": "Kobe"},
+          {"name": "Himeji"},
+          {"name": "Amagasaki"},
+          {"name": "Akashi"},
+          {"name": "Nishinomiya"},
+          {"name": "Takarazuka"},
+          {"name": "Kakogawa"},
+          {"name": "Itami"}
+        ]
+      },
+      {
+        "code": "IBA",
+        "name": "Ibaraki",
+        "cities": [
+          {"name": "Mito"},
+          {"name": "Tsuchiura"},
+          {"name": "Hitachi"},
+          {"name": "Takahagi"},
+          {"name": "Kashima"},
+          {"name": "Toranomon"},
+          {"name": "Ushiku"}
+        ]
+      },
+      {
+        "code": "ISH",
+        "name": "Ishikawa",
+        "cities": [
+          {"name": "Kanazawa"},
+          {"name": "Hakusan"},
+          {"name": "Komatsu"},
+          {"name": "Nanao"},
+          {"name": "Wajima"},
+          {"name": "Suzu"},
+          {"name": "Kaga"}
+        ]
+      },
+      {
+        "code": "IWA",
+        "name": "Iwate",
+        "cities": [
+          {"name": "Morioka"},
+          {"name": "Ichinoseki"},
+          {"name": "Hanamaki"},
+          {"name": "Miyako"},
+          {"name": "Kitakami"},
+          {"name": "Oshu"},
+          {"name": "Takizawa"}
+        ]
+      },
+      {
+        "code": "KAG",
+        "name": "Kagawa",
+        "cities": [
+          {"name": "Takamatsu"},
+          {"name": "Marugame"},
+          {"name": "Kotohira"},
+          {"name": "Zentsuji"},
+          {"name": "Sakaide"},
+          {"name": "Shikokuchuo"},
+          {"name": "Mitoyo"}
+        ]
+      },
+      {
+        "code": "KAG",
+        "name": "Kagoshima",
+        "cities": [
+          {"name": "Kagoshima"},
+          {"name": "Kinkou"},
+          {"name": "Tanegashima"},
+          {"name": "Makurazaki"},
+          {"name": "Izumi"},
+          {"name": "Kirishima"},
+          {"name": "Satsumasendai"}
+        ]
+      },
+      {
+        "code": "KAN",
+        "name": "Kanagawa",
+        "cities": [
+          {"name": "Yokohama"},
+          {"name": "Kawasaki"},
+          {"name": "Sagamihara"},
+          {"name": "Yokosuka"},
+          {"name": "Fujisawa"},
+          {"name": "Odawara"},
+          {"name": "Zama"},
+          {"name": "Chigasaki"}
+        ]
+      },
+      {
+        "code": "KOC",
+        "name": "Kochi",
+        "cities": [
+          {"name": "Kochi"},
+          {"name": "Nankoku"},
+          {"name": "Tosa"},
+          {"name": "Susaki"},
+          {"name": "Aki"},
+          {"name": "Kochi"},
+          {"name": "Muroto"}
+        ]
+      },
+      {
+        "code": "KUM",
+        "name": "Kumamoto",
+        "cities": [
+          {"name": "Kumamoto"},
+          {"name": "Kikuchi"},
+          {"name": "Amakusa"},
+          {"name": "Tamana"},
+          {"name": "Yatsushiro"},
+          {"name": "Kumamoto"},
+          {"name": "Hitoyoshi"}
+        ]
+      },
+      {
+        "code": "KYO",
+        "name": "Kyoto",
+        "cities": [
+          {"name": "Kyoto"},
+          {"name": "Uji"},
+          {"name": "Maizuru"},
+          {"name": "Kameoka"},
+          {"name": "Fukuchiyama"},
+          {"name": "Nagaokakyo"},
+          {"name": "Miyazu"}
+        ]
+      },
+      {
+        "code": "MIE",
+        "name": "Mie",
+        "cities": [
+          {"name": "Tsu"},
+          {"name": "Yokkaichi"},
+          {"name": "Suzuka"},
+          {"name": "Matsusaka"},
+          {"name": "Ise"},
+          {"name": "Kuwana"},
+          {"name": "Shima"},
+          {"name": "Owase"}
+        ]
+      },
+      {
+        "code": "MIY",
+        "name": "Miyagi",
+        "cities": [
+          {"name": "Sendai"},
+          {"name": "Ishinomaki"},
+          {"name": "Shiogama"},
+          {"name": "Kesennuma"},
+          {"name": "Natori"},
+          {"name": "Tomiya"},
+          {"name": "Tagajo"},
+          {"name": "Osaki"}
+        ]
+      },
+      {
+        "code": "MIY",
+        "name": "Miyazaki",
+        "cities": [
+          {"name": "Miyazaki"},
+          {"name": "Hyuga"},
+          {"name": "Nichinan"},
+          {"name": "Kushima"},
+          {"name": "Takanabe"},
+          {"name": "Kunitomi"},
+          {"name": "Miyakonojo"}
+        ]
+      },
+      {
+        "code": "NAG",
+        "name": "Nagano",
+        "cities": [
+          {"name": "Nagano"},
+          {"name": "Matsumoto"},
+          {"name": "Ueda"},
+          {"name": "Suzaka"},
+          {"name": "Omachi"},
+          {"name": "Iida"},
+          {"name": "Ina"},
+          {"name": "Komoro"}
+        ]
+      },
+      {
+        "code": "NAG",
+        "name": "Nagasaki",
+        "cities": [
+          {"name": "Nagasaki"},
+          {"name": "Sasebo"},
+          {"name": "Isahaya"},
+          {"name": "Omura"},
+          {"name": "Hirado"},
+          {"name": "Shimabara"},
+          {"name": "Minami-Shimabara"}
+        ]
+      },
+      {
+        "code": "NAR",
+        "name": "Nara",
+        "cities": [
+          {"name": "Nara"},
+          {"name": "Kashihara"},
+          {"name": "Ikoma"},
+          {"name": "Tenri"},
+          {"name": "Yamatotakada"},
+          {"name": "Yamatokoriyama"},
+          {"name": "Gose"}
+        ]
+      },
+      {
+        "code": "NII",
+        "name": "Niigata",
+        "cities": [
+          {"name": "Niigata"},
+          {"name": "Nagaoka"},
+          {"name": "Joetsu"},
+          {"name": "Shibata"},
+          {"name": "Sanjo"},
+          {"name": "Kashiwazaki"},
+          {"name": "Sado"}
+        ]
+      },
+      {
+        "code": "OKA",
+        "name": "Okayama",
+        "cities": [
+          {"name": "Okayama"},
+          {"name": "Kurashiki"},
+          {"name": "Ohashi"},
+          {"name": "Tsuyama"},
+          {"name": "Okayama"},
+          {"name": "Soja"},
+          {"name": "Kibichuo"}
+        ]
+      },
+      {
+        "code": "OKI",
+        "name": "Okinawa",
+        "cities": [
+          {"name": "Naha"},
+          {"name": "Okinawa"},
+          {"name": "Urasoe"},
+          {"name": "Itoman"},
+          {"name": "Uruma"},
+          {"name": "Ishigaki"},
+          {"name": "Nago"}
+        ]
+      },
+      {
+        "code": "OSA",
+        "name": "Osaka",
+        "cities": [
+          {"name": "Osaka"},
+          {"name": "Sakai"},
+          {"name": "Higashi-Osaka"},
+          {"name": "Toyonaka"},
+          {"name": "Takatsuki"},
+          {"name": "Suita"},
+          {"name": "Hirakata"},
+          {"name": "Ibaraki"}
+        ]
+      },
+      {
+        "code": "SAG",
+        "name": "Saga",
+        "cities": [
+          {"name": "Saga"},
+          {"name": "Tosu"},
+          {"name": "Karatsu"},
+          {"name": "Imari"},
+          {"name": "Kashima"},
+          {"name": "Ogi"},
+          {"name": "Ureshino"}
+        ]
+      },
+      {
+        "code": "SHI",
+        "name": "Shiga",
+        "cities": [
+          {"name": "Otsu"},
+          {"name": "Hikone"},
+          {"name": "Kusatsu"},
+          {"name": "Moriyama"},
+          {"name": "Nagahama"},
+          {"name": "Omihachiman"},
+          {"name": "Ritto"}
+        ]
+      },
+      {
+        "code": "SHI",
+        "name": "Shimane",
+        "cities": [
+          {"name": "Matsue"},
+          {"name": "Izumo"},
+          {"name": "Hamada"},
+          {"name": "Masuda"},
+          {"name": "Oda"},
+          {"name": "Mizuki"},
+          {"name": "Shimane"}
+        ]
+      },
+      {
+        "code": "SHI",
+        "name": "Shizuoka",
+        "cities": [
+          {"name": "Shizuoka"},
+          {"name": "Hamamatsu"},
+          {"name": "Numazu"},
+          {"name": "Fuji"},
+          {"name": "Shimada"},
+          {"name": "Yaizu"},
+          {"name": "Iwata"},
+          {"name": "Mishima"}
+        ]
+      },
+      {
+        "code": "TOC",
+        "name": "Tochigi",
+        "cities": [
+          {"name": "Utsunomiya"},
+          {"name": "Ashikaga"},
+          {"name": "Tochigi"},
+          {"name": "Kanuma"},
+          {"name": "Sano"},
+          {"name": "Oyama"},
+          {"name": "Nikko"}
+        ]
+      },
+      {
+        "code": "TOK",
+        "name": "Tokushima",
+        "cities": [
+          {"name": "Tokushima"},
+          {"name": "Naruto"},
+          {"name": "Yoshinogawa"},
+          {"name": "Mima"},
+          {"name": "Komatsushim"},
+          {"name": "Anan"},
+          {"name": "Kaita"}
+        ]
+      },
+      {
+        "code": "TOK",
+        "name": "Tokyo",
+        "cities": [
+          {"name": "Tokyo"},
+          {"name": "Shinjuku"},
+          {"name": "Shibuya"},
+          {"name": "Chiyoda"},
+          {"name": "Taito"},
+          {"name": "Minato"},
+          {"name": "Meguro"},
+          {"name": "Setagaya"}
+        ]
+      },
+      {
+        "code": "TOT",
+        "name": "Tottori",
+        "cities": [
+          {"name": "Tottori"},
+          {"name": "Yonago"},
+          {"name": "Kurayoshi"},
+          {"name": "Sakaiminato"},
+          {"name": "Iwami"},
+          {"name": "Misasa"}
+        ]
+      },
+      {
+        "code": "TOY",
+        "name": "Toyama",
+        "cities": [
+          {"name": "Toyama"},
+          {"name": "Takaoka"},
+          {"name": "Uozu"},
+          {"name": "Nanto"},
+          {"name": "Himi"},
+          {"name": "Imizu"},
+          {"name": "Kurobe"}
+        ]
+      },
+      {
+        "code": "WAK",
+        "name": "Wakayama",
+        "cities": [
+          {"name": "Wakayama"},
+          {"name": "Tanabe"},
+          {"name": "Shingu"},
+          {"name": "Gobo"},
+          {"name": "Hashimoto"},
+          {"name": "Kainan"},
+          {"name": "Arida"}
+        ]
+      },
+      {
+        "code": "YAM",
+        "name": "Yamagata",
+        "cities": [
+          {"name": "Yamagata"},
+          {"name": "Tsuruoka"},
+          {"name": "Sakata"},
+          {"name": "Tendo"},
+          {"name": "Yonezawa"},
+          {"name": "Shinjo"},
+          {"name": "Nagai"}
+        ]
+      },
+      {
+        "code": "YAM",
+        "name": "Yamaguchi",
+        "cities": [
+          {"name": "Yamaguchi"},
+          {"name": "Ube"},
+          {"name": "Shunan"},
+          {"name": "Hagi"},
+          {"name": "Yanai"},
+          {"name": "Hofu"},
+          {"name": "Sanyoonoda"}
+        ]
+      },
+      {
+        "code": "YAM",
+        "name": "Yamanashi",
+        "cities": [
+          {"name": "Kofu"},
+          {"name": "Fujiyoshida"},
+          {"name": "Kai"},
+          {"name": "Fuefuki"},
+          {"name": "Nirasaki"},
+          {"name": "Minami-Alps"},
+          {"name": "Uenohara"}
+        ]
+      }
+    ]
+  },
+  { 
+    "code":"US",
+    "areaCode":"1",
+    "phoneRegex": "(\\d{3})(\\d{3})(\\d{4})",
+    "phoneFormat": "($1) $2-$3",
+    "name": "United States",
+    "states": [
+      {
+        "code": "AL",
+        "name": "Alabama",
+        "cities": [
+          {"name": "Birmingham"},
+          {"name": "Montgomery"},
+          {"name": "Huntsville"},
+          {"name": "Mobile"},
+          {"name": "Tuscaloosa"},
+          {"name": "Hoover"},
+          {"name": "Dothan"},
+          {"name": "Auburn"}
+        ]
+      },
+      {
+        "code": "AK",
+        "name": "Alaska",
+        "cities": [
+          {"name": "Anchorage"},
+          {"name": "Fairbanks"},
+          {"name": "Juneau"},
+          {"name": "Sitka"},
+          {"name": "Ketchikan"},
+          {"name": "Wasilla"},
+          {"name": "Palmer"},
+          {"name": "Kenai"}
+        ]
+      },
+      {
+        "code": "AZ",
+        "name": "Arizona",
+        "cities": [
+          {"name": "Phoenix"},
+          {"name": "Tucson"},
+          {"name": "Mesa"},
+          {"name": "Chandler"},
+          {"name": "Glendale"},
+          {"name": "Scottsdale"},
+          {"name": "Tempe"},
+          {"name": "Gilbert"}
+        ]
+      },
+      {
+        "code": "AR",
+        "name": "Arkansas",
+        "cities": [
+          {"name": "Little Rock"},
+          {"name": "Fort Smith"},
+          {"name": "Fayetteville"},
+          {"name": "Springdale"},
+          {"name": "Jonesboro"},
+          {"name": "Pine Bluff"},
+          {"name": "Conway"},
+          {"name": "Bentonville"}
+        ]
+      },
+      {
+        "code": "CA",
+        "name": "California",
+        "cities": [
+          {"name": "Los Angeles"},
+          {"name": "San Diego"},
+          {"name": "San Jose"},
+          {"name": "San Francisco"},
+          {"name": "Fresno"},
+          {"name": "Sacramento"},
+          {"name": "Long Beach"},
+          {"name": "Oakland"}
+        ]
+      },
+      {
+        "code": "CO",
+        "name": "Colorado",
+        "cities": [
+          {"name": "Denver"},
+          {"name": "Colorado Springs"},
+          {"name": "Aurora"},
+          {"name": "Fort Collins"},
+          {"name": "Boulder"},
+          {"name": "Greeley"},
+          {"name": "Pueblo"},
+          {"name": "Grand Junction"}
+        ]
+      },
+      {
+        "code": "CT",
+        "name": "Connecticut",
+        "cities": [
+          {"name": "Bridgeport"},
+          {"name": "New Haven"},
+          {"name": "Stamford"},
+          {"name": "Hartford"},
+          {"name": "Waterbury"},
+          {"name": "Norwalk"},
+          {"name": "Danbury"},
+          {"name": "New Britain"}
+        ]
+      },
+      {
+        "code": "DE",
+        "name": "Delaware",
+        "cities": [
+          {"name": "Wilmington"},
+          {"name": "Dover"},
+          {"name": "Newark"},
+          {"name": "Middletown"},
+          {"name": "Smyrna"},
+          {"name": "Georgetown"},
+          {"name": "Seaford"},
+          {"name": "Clayton"}
+        ]
+      },
+      {
+        "code": "FL",
+        "name": "Florida",
+        "cities": [
+          {"name": "Jacksonville"},
+          {"name": "Miami"},
+          {"name": "Tampa"},
+          {"name": "Orlando"},
+          {"name": "St. Petersburg"},
+          {"name": "Hialeah"},
+          {"name": "Tallahassee"},
+          {"name": "Fort Lauderdale"}
+        ]
+      },
+      {
+        "code": "GA",
+        "name": "Georgia",
+        "cities": [
+          {"name": "Atlanta"},
+          {"name": "Augusta"},
+          {"name": "Columbus"},
+          {"name": "Macon"},
+          {"name": "Savannah"},
+          {"name": "Roswell"},
+          {"name": "Johns Creek"},
+          {"name": "Albany"}
+        ]
+      },
+      {
+        "code": "HI",
+        "name": "Hawaii",
+        "cities": [
+          {"name": "Honolulu"},
+          {"name": "Hilo"},
+          {"name": "Kailua"},
+          {"name": "Kaneohe"},
+          {"name": "Waipahu"},
+          {"name": "Mililani Mauka"},
+          {"name": "Waianae"},
+          {"name": "Ewa Beach"}
+        ]
+      },
+      {
+        "code": "ID",
+        "name": "Idaho",
+        "cities": [
+          {"name": "Boise"},
+          {"name": "Nampa"},
+          {"name": "Meridian"},
+          {"name": "Idaho Falls"},
+          {"name": "Pocatello"},
+          {"name": "Caldwell"},
+          {"name": "Coeur d'Alene"},
+          {"name": "Twin Falls"}
+        ]
+      },
+      {
+        "code": "IL",
+        "name": "Illinois",
+        "cities": [
+          {"name": "Chicago"},
+          {"name": "Aurora"},
+          {"name": "Naperville"},
+          {"name": "Joliet"},
+          {"name": "Rockford"},
+          {"name": "Springfield"},
+          {"name": "Elgin"},
+          {"name": "Peoria"}
+        ]
+      },
+      {
+        "code": "IN",
+        "name": "Indiana",
+        "cities": [
+          {"name": "Indianapolis"},
+          {"name": "Fort Wayne"},
+          {"name": "Evansville"},
+          {"name": "South Bend"},
+          {"name": "Carmel"},
+          {"name": "Fishers"},
+          {"name": "Bloomington"},
+          {"name": "Muncie"}
+        ]
+      },
+      {
+        "code": "IA",
+        "name": "Iowa",
+        "cities": [
+          {"name": "Des Moines"},
+          {"name": "Cedar Rapids"},
+          {"name": "Davenport"},
+          {"name": "Sioux City"},
+          {"name": "Iowa City"},
+          {"name": "Ames"},
+          {"name": "Waterloo"},
+          {"name": "Council Bluffs"}
+        ]
+      },
+      {
+        "code": "KS",
+        "name": "Kansas",
+        "cities": [
+          {"name": "Wichita"},
+          {"name": "Overland Park"},
+          {"name": "Kansas City"},
+          {"name": "Olathe"},
+          {"name": "Topeka"},
+          {"name": "Lawrence"},
+          {"name": "Shawnee"},
+          {"name": "Manhattan"}
+        ]
+      },
+      {
+        "code": "KY",
+        "name": "Kentucky",
+        "cities": [
+          {"name": "Louisville"},
+          {"name": "Lexington"},
+          {"name": "Bowling Green"},
+          {"name": "Covington"},
+          {"name": "Hopkinsville"},
+          {"name": "Owensboro"},
+          {"name": "Georgetown"},
+          {"name": "Frankfort"}
+        ]
+      },
+      {
+        "code": "LA",
+        "name": "Louisiana",
+        "cities": [
+          {"name": "New Orleans"},
+          {"name": "Baton Rouge"},
+          {"name": "Shreveport"},
+          {"name": "Lafayette"},
+          {"name": "Lake Charles"},
+          {"name": "Kenner"},
+          {"name": "Bossier City"},
+          {"name": "Houma"}
+        ]
+      },
+      {
+        "code": "ME",
+        "name": "Maine",
+        "cities": [
+          {"name": "Portland"},
+          {"name": "Lewiston"},
+          {"name": "Bangor"},
+          {"name": "South Portland"},
+          {"name": "Auburn"},
+          {"name": "Biddeford"},
+          {"name": "Sanford"},
+          {"name": "Westbrook"}
+        ]
+      },
+      {
+        "code": "MD",
+        "name": "Maryland",
+        "cities": [
+          {"name": "Baltimore"},
+          {"name": "Columbia"},
+          {"name": "Germantown"},
+          {"name": "Silver Spring"},
+          {"name": "Waldorf"},
+          {"name": "Frederick"},
+          {"name": "Rockville"},
+          {"name": "Annapolis"}
+        ]
+      },
+      {
+        "code": "MA",
+        "name": "Massachusetts",
+        "cities": [
+          {"name": "Boston"},
+          {"name": "Worcester"},
+          {"name": "Springfield"},
+          {"name": "Cambridge"},
+          {"name": "Lowell"},
+          {"name": "Brockton"},
+          {"name": "Lynn"},
+          {"name": "Quincy"}
+        ]
+      },
+      {
+        "code": "MI",
+        "name": "Michigan",
+        "cities": [
+          {"name": "Detroit"},
+          {"name": "Grand Rapids"},
+          {"name": "Warren"},
+          {"name": "Sterling Heights"},
+          {"name": "Lansing"},
+          {"name": "Ann Arbor"},
+          {"name":
+
+  "Flint"},
+          {"name": "Dearborn"}
+        ]
+      },
+      {
+        "code": "MN",
+        "name": "Minnesota",
+        "cities": [
+          {"name": "Minneapolis"},
+          {"name": "Saint Paul"},
+          {"name": "Rochester"},
+          {"name": "Duluth"},
+          {"name": "Bloomington"},
+          {"name": "Brooklyn Park"},
+          {"name": "Plymouth"},
+          {"name": "Eagan"}
+        ]
+      },
+      {
+        "code": "MS",
+        "name": "Mississippi",
+        "cities": [
+          {"name": "Jackson"},
+          {"name": "Gulfport"},
+          {"name": "Southaven"},
+          {"name": "Biloxi"},
+          {"name": "Hattiesburg"},
+          {"name": "Meridian"},
+          {"name": "Tupelo"},
+          {"name": "Olive Branch"}
+        ]
+      },
+      {
+        "code": "MO",
+        "name": "Missouri",
+        "cities": [
+          {"name": "Kansas City"},
+          {"name": "Saint Louis"},
+          {"name": "Springfield"},
+          {"name": "Columbia"},
+          {"name": "Independence"},
+          {"name": "Lee's Summit"},
+          {"name": "St. Joseph"},
+          {"name": "Jefferson City"}
+        ]
+      },
+      {
+        "code": "MT",
+        "name": "Montana",
+        "cities": [
+          {"name": "Billings"},
+          {"name": "Missoula"},
+          {"name": "Great Falls"},
+          {"name": "Bozeman"},
+          {"name": "Butte"},
+          {"name": "Helena"},
+          {"name": "Kalispell"},
+          {"name": "Havre"}
+        ]
+      },
+      {
+        "code": "NE",
+        "name": "Nebraska",
+        "cities": [
+          {"name": "Omaha"},
+          {"name": "Lincoln"},
+          {"name": "Bellevue"},
+          {"name": "Grand Island"},
+          {"name": "Kearney"},
+          {"name": "Fremont"},
+          {"name": "Hastings"},
+          {"name": "North Platte"}
+        ]
+      },
+      {
+        "code": "NV",
+        "name": "Nevada",
+        "cities": [
+          {"name": "Las Vegas"},
+          {"name": "Henderson"},
+          {"name": "Reno"},
+          {"name": "North Las Vegas"},
+          {"name": "Sparks"},
+          {"name": "Carson City"},
+          {"name": "Elko"},
+          {"name": "Mesquite"}
+        ]
+      },
+      {
+        "code": "NH",
+        "name": "New Hampshire",
+        "cities": [
+          {"name": "Manchester"},
+          {"name": "Nashua"},
+          {"name": "Concord"},
+          {"name": "Derry"},
+          {"name": "Rochester"},
+          {"name": "Salem"},
+          {"name": "Keene"},
+          {"name": "Londonderry"}
+        ]
+      },
+      {
+        "code": "NJ",
+        "name": "New Jersey",
+        "cities": [
+          {"name": "Newark"},
+          {"name": "Jersey City"},
+          {"name": "Paterson"},
+          {"name": "Elizabeth"},
+          {"name": "Edison"},
+          {"name": "Woodbridge"},
+          {"name": "Lakewood"},
+          {"name": "Clifton"}
+        ]
+      },
+      {
+        "code": "NM",
+        "name": "New Mexico",
+        "cities": [
+          {"name": "Albuquerque"},
+          {"name": "Las Cruces"},
+          {"name": "Santa Fe"},
+          {"name": "Rio Rancho"},
+          {"name": "Roswell"},
+          {"name": "Farmington"},
+          {"name": "Clovis"},
+          {"name": "Carlsbad"}
+        ]
+      },
+      {
+        "code": "NY",
+        "name": "New York",
+        "cities": [
+          {"name": "New York City"},
+          {"name": "Buffalo"},
+          {"name": "Rochester"},
+          {"name": "Yonkers"},
+          {"name": "Syracuse"},
+          {"name": "Albany"},
+          {"name": "Saratoga Springs"},
+          {"name": "Schenectady"}
+        ]
+      },
+      {
+        "code": "NC",
+        "name": "North Carolina",
+        "cities": [
+          {"name": "Charlotte"},
+          {"name": "Raleigh"},
+          {"name": "Greensboro"},
+          {"name": "Durham"},
+          {"name": "Winston-Salem"},
+          {"name": "Fayetteville"},
+          {"name": "Cary"},
+          {"name": "Gastonia"}
+        ]
+      },
+      {
+        "code": "ND",
+        "name": "North Dakota",
+        "cities": [
+          {"name": "Fargo"},
+          {"name": "Bismarck"},
+          {"name": "Grand Forks"},
+          {"name": "Minot"},
+          {"name": "Williston"},
+          {"name": "Dickinson"},
+          {"name": "Jamestown"},
+          {"name": "Mandan"}
+        ]
+      },
+      {
+        "code": "OH",
+        "name": "Ohio",
+        "cities": [
+          {"name": "Columbus"},
+          {"name": "Cleveland"},
+          {"name": "Cincinnati"},
+          {"name": "Toledo"},
+          {"name": "Akron"},
+          {"name": "Dayton"},
+          {"name": "Canton"},
+          {"name": "Youngstown"}
+        ]
+      },
+      {
+        "code": "OK",
+        "name": "Oklahoma",
+        "cities": [
+          {"name": "Oklahoma City"},
+          {"name": "Tulsa"},
+          {"name": "Norman"},
+          {"name": "Broken Arrow"},
+          {"name": "Edmond"},
+          {"name": "Moore"},
+          {"name": "Lawton"},
+          {"name": "Stillwater"}
+        ]
+      },
+      {
+        "code": "OR",
+        "name": "Oregon",
+        "cities": [
+          {"name": "Portland"},
+          {"name": "Salem"},
+          {"name": "Eugene"},
+          {"name": "Gresham"},
+          {"name": "Hillsboro"},
+          {"name": "Beaverton"},
+          {"name": "Bend"},
+          {"name": "Medford"}
+        ]
+      },
+      {
+        "code": "PA",
+        "name": "Pennsylvania",
+        "cities": [
+          {"name": "Philadelphia"},
+          {"name": "Pittsburgh"},
+          {"name": "Allentown"},
+          {"name": "Erie"},
+          {"name": "Reading"},
+          {"name": "Scranton"},
+          {"name": "Bethlehem"},
+          {"name": "Lancaster"}
+        ]
+      },
+      {
+        "code": "RI",
+        "name": "Rhode Island",
+        "cities": [
+          {"name": "Providence"},
+          {"name": "Warwick"},
+          {"name": "Cranston"},
+          {"name": "Pawtucket"},
+          {"name": "East Providence"},
+          {"name": "Woonsocket"},
+          {"name": "Coventry"},
+          {"name": "North Providence"}
+        ]
+      },
+      {
+        "code": "SC",
+        "name": "South Carolina",
+        "cities": [
+          {"name": "Charleston"},
+          {"name": "Columbia"},
+          {"name": "North Charleston"},
+          {"name": "Greenville"},
+          {"name": "Mount Pleasant"},
+          {"name": "Florence"},
+          {"name": "Spartanburg"},
+          {"name": "Sumter"}
+        ]
+      },
+      {
+        "code": "SD",
+        "name": "South Dakota",
+        "cities": [
+          {"name": "Sioux Falls"},
+          {"name": "Rapid City"},
+          {"name": "Aberdeen"},
+          {"name": "Brookings"},
+          {"name": "Mitchell"},
+          {"name": "Pierre"},
+          {"name": "Huron"},
+          {"name": "Yankton"}
+        ]
+      },
+      {
+        "code": "TN",
+        "name": "Tennessee",
+        "cities": [
+          {"name": "Memphis"},
+          {"name": "Nashville"},
+          {"name": "Knoxville"},
+          {"name": "Chattanooga"},
+          {"name": "Clarksville"},
+          {"name": "Jackson"},
+          {"name": "Johnson City"},
+          {"name": "Murfreesboro"}
+        ]
+      },
+      {
+        "code": "TX",
+        "name": "Texas",
+        "cities": [
+          {"name": "Houston"},
+          {"name": "San Antonio"},
+          {"name": "Dallas"},
+          {"name": "Austin"},
+          {"name": "Fort Worth"},
+          {"name": "El Paso"},
+          {"name": "Arlington"},
+          {"name": "Corpus Christi"}
+        ]
+      },
+      {
+        "code": "UT",
+        "name": "Utah",
+        "cities": [
+          {"name": "Salt Lake City"},
+          {"name": "West Valley City"},
+          {"name": "Provo"},
+          {"name": "West Jordan"},
+          {"name": "Orem"},
+          {"name": "Sandy"},
+          {"name": "Ogden"},
+          {"name": "St. George"}
+        ]
+      },
+    
+
+  {
+        "code": "VT",
+        "name": "Vermont",
+        "cities": [
+          {"name": "Burlington"},
+          {"name": "South Burlington"},
+          {"name": "Rutland"},
+          {"name": "Barre"},
+          {"name": "Winooski"},
+          {"name": "Montpelier"},
+          {"name": "Stowe"},
+          {"name": "Essex Junction"}
+        ]
+      },
+      {
+        "code": "VA",
+        "name": "Virginia",
+        "cities": [
+          {"name": "Virginia Beach"},
+          {"name": "Norfolk"},
+          {"name": "Chesapeake"},
+          {"name": "Richmond"},
+          {"name": "Newport News"},
+          {"name": "Alexandria"},
+          {"name": "Hampton"},
+          {"name": "Roanoke"}
+        ]
+      },
+      {
+        "code": "WA",
+        "name": "Washington",
+        "cities": [
+          {"name": "Seattle"},
+          {"name": "Spokane"},
+          {"name": "Tacoma"},
+          {"name": "Vancouver"},
+          {"name": "Bellevue"},
+          {"name": "Kent"},
+          {"name": "Everett"},
+          {"name": "Renton"}
+        ]
+      },
+      {
+        "code": "WV",
+        "name": "West Virginia",
+        "cities": [
+          {"name": "Charleston"},
+          {"name": "Huntington"},
+          {"name": "Morgantown"},
+          {"name": "Parkersburg"},
+          {"name": "Weirton"},
+          {"name": "Wheeling"},
+          {"name": "Fairmont"},
+          {"name": "Beckley"}
+        ]
+      },
+      {
+        "code": "WI",
+        "name": "Wisconsin",
+        "cities": [
+          {"name": "Milwaukee"},
+          {"name": "Madison"},
+          {"name": "Green Bay"},
+          {"name": "Kenosha"},
+          {"name": "Racine"},
+          {"name": "Appleton"},
+          {"name": "Oshkosh"},
+          {"name": "Sheboygan"}
+        ]
+      },
+      {
+        "code": "WY",
+        "name": "Wyoming",
+        "cities": [
+          {"name": "Cheyenne"},
+          {"name": "Casper"},
+          {"name": "Laramie"},
+          {"name": "Gillette"},
+          {"name": "Rock Springs"},
+          {"name": "Sheridan"},
+          {"name": "Evanston"},
+          {"name": "Riverton"}
+        ]
+      }
+    ]
+  }
+      
+]

@@ -1,0 +1,1 @@
+export type FieldArrayNamesResumeForm = "dependents" | "languages" | "education" | "experience" | "certifications" | "socialLinks";

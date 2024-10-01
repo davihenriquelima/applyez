@@ -1,32 +1,39 @@
-import { SubmitHandler, useFieldArray, useForm } from "react-hook-form";
+"use client";
+
+import { SubmitHandler, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { CountriesProvider, useCountriesCtx} from "@/contexts/CountriesProvider";
 import { FormData, resumeSchema } from "@/schemas/resumeSchema";
 import { maskCpf, maskDate, maskPhoneNumber, maskZipCode } from "@/masks/masks";
 import { useState } from "react";
 import React from "react";
+import { useDynamicFieldArrays } from "@/hooks/useDynamicFieldArrays";
+import { FieldArrayNamesResumeForm } from "@/types/FieldArrayNamesResumeForm";
 
 const ResumeForm = ()=> {
+
+	const countriesCtx = useCountriesCtx();
 
     const { register, control, handleSubmit, watch, setValue, formState: { errors } } = useForm<FormData>({
 		defaultValues: {
 			dependents: [{response:'', quantity:0}],
-			skills:[]
+			skills:[''],
+			languages: [{language: '', proficiency: ''}],
+			education: [{institution:'', degree: '', startDate:'', endDate:''}],
+			experience: [{company:'', role:'', startDate:'', endDate:'', responsibilities:''}],
+			certifications: [{name:'', issuingOrganization:'', issueDate:'', expirationDate:''}],
+			portfolioLinks:[''],
+			socialLinks:[{linkedin:'', github:'', facebook:'', instagram:'', tiktok:''}]
 		},
      	resolver: zodResolver(resumeSchema),
     });
 
-	const countriesCtx = useCountriesCtx();
+	const fieldArrayNames: FieldArrayNamesResumeForm[] = ["dependents", "languages", "education", "experience", "certifications", "socialLinks"];
+  	const fieldArrays = useDynamicFieldArrays(control, fieldArrayNames);
 
     const onSubmit:SubmitHandler<FormData> = (data) =>{
     	console.log(data)
     }
-
-	// dependents
-	const {fields, append, remove } = useFieldArray({
-		control,
-		name:"dependents"
-	});
 
 	// skills
 	const [skill, setSkill] = useState("");
@@ -51,7 +58,7 @@ const ResumeForm = ()=> {
 		
 		<div className="w-full max-w-4xl">
 			<div className="text-white bg-blue-900 p-4 rounded-md">
-				<h1 className="text-center text-xl font-bold uppercase">Edit Your Resume</h1>
+				<h1 className="text-center text-xl font-bold uppercase">Edit your resume</h1>
 			</div>
 			<form
 				onSubmit={handleSubmit(onSubmit)}
@@ -112,7 +119,7 @@ const ResumeForm = ()=> {
 							{errors.maritalStatus && <p className="bg-white/20 text-red-600 px-2 text-sm">{errors.maritalStatus.message}</p>}
 						</div>
 
-						{fields.map((field, index) => (
+						{fieldArrays.dependents.fields.map((field, index) => (
 							<>
 								<div className="w-full">
 									<label htmlFor={`dependents.${index}.response`} className="font-bold">Dependents</label>
@@ -338,7 +345,7 @@ const ResumeForm = ()=> {
     );
 };
 
-const ApplicationForm = () => {
+const ResumeFormInvolved = () => {
 	return (
 		<CountriesProvider>
 			<ResumeForm/>
@@ -346,4 +353,4 @@ const ApplicationForm = () => {
 	)
 }
 
-export default ApplicationForm;
+export default ResumeFormInvolved;

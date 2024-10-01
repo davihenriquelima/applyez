@@ -45,11 +45,14 @@ export const resumeSchema = z.object({
         expirationDate: z.string().optional()
     })).optional(),
     portfolioLinks: z.array(z.string().url()).optional(),
-    socialLinks: z.object({
-        linkedIn: z.string().url().optional(),
+    socialLinks: z.array(z.object({
+        linkedin: z.string().url().optional(),
         github: z.string().url().optional(),
-        portfolio: z.string().url().optional()
-    }).optional(),
+        portfolio: z.string().url().optional(),
+        instagram:z.string().url().optional(),
+        facebook:z.string().url().optional(),
+        tiktok:z.string().url().optional()
+    })).optional(),
     curriculum: z
         .instanceof(FileList)
         .refine(files => files.length > 0, "please select a file")
